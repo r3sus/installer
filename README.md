@@ -18,41 +18,43 @@ Google Chrome, Mozilla Firefox and Internet Explorer browser plugins are support
 
 **Clean Flash is compatible and tested with Windows XP, Windows Vista, Windows 7, Windows 8.1, Windows 10 and Windows 11**. If attempting to run on Windows XP, download [.NET Framework 4.0](https://dotnet.microsoft.com/download/dotnet-framework/net40) first and optionally update to [.NET Framework 4.0.3](https://www.microsoft.com/en-us/download/details.aspx?id=29053).
 
-Linux/Mac: Get projector from [adobe](https://www.adobe.com/support/flashplayer/debug_downloads.html).
+## Linux/Mac 
+Get projector from [adobe](https://www.adobe.com/support/flashplayer/debug_downloads.html).
 For browser plugins, refer to [FlashPatch](https://github.com/darktohka/FlashPatch) and [clean-flash-builds](
 https://github.com/darktohka/clean-flash-builds).  
 
-## Browser compatibility
+## Browsers supporting Flash Player
 
-Newer versions of Google Chrome and Mozilla Firefox do not support Flash Player anymore.
-
-**Internet Explorer** still supports Flash Player on Windows.
-
-Browsers supporting Flash Player:  
-### Maintained (recommended)
-- Cent Browser (Chromium)
-- Waterfox (Firefox)
+It is recommended to use separate browser for Flash only purposes.
+ 
+### Maintained
+- Cent Browser (Chrome-like)
+- Waterfox
+- Internet Explorer
 
 Firefox-legacy:
 - Waterfox Classic
 - Basilisk Browser
 - Sea Monkey
+- Mypal
 - Pale Moon
 
+Other: K-Meleon.
+
 ### Unmaintained (early versions)
-Chromium 88.0.4285.0 (or lower)   
-Download `mini_installer.exe` or portable version from [here.](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/814251/)
- 
-Google Chrome 87.0.4280.168.  
-Mozilla Firefox 84.  
-Portable versions to be used to prevent auto-updates.  
-[Download from Internet Archive.](https://archive.org/details/Firefox_Chrome_Adobe_Flash)
+
+Newer versions of Google Chrome and Mozilla Firefox do not support Flash Player anymore after:
+- Google Chrome 87.0.4280.168.  
+- Mozilla Firefox 84.  
+
+which availabe at 
+[Internet Archive](https://archive.org/details/Firefox_Chrome_Adobe_Flash) in Portable edition, so to prevent auto-updates.
 
 ## Usage
 
 - Make sure you have a compatible browser to use Flash Player with
 - Download the latest version from [GitHub](https://github.com/CleanFlash/installer/releases/latest)
-- Extract the installer and run it
+- Launch the installer
 - Accept the disclaimer
 - Choose which browser plugins to install
 - Choose to install the standalone projector or not

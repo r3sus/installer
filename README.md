@@ -14,19 +14,39 @@ The original Flash Player was discontinued on January 12th, 2021. Adobe is commi
 
 Clean Flash Player uses a modified version of this updated Flash Player version, keeping Flash Player clean from adware.
 
-Google Chrome, Mozilla Firefox and Internet Explorer browser plugins are supported. Clean Flash Player ships with a standalone Flash Projector as well.
+Google Chrome, Mozilla Firefox and Internet Explorer browser plugins are supported. Clean Flash Player ships with a standalone Flash Player (aka projector). Projector is **portable** and works outside of browser, can be downloaded separately from [flash.cn](https://www.flash.cn/cdm/latest/flashplayer_sa.exe).
 
 **Clean Flash is compatible and tested with Windows XP, Windows Vista, Windows 7, Windows 8.1, Windows 10 and Windows 11**. If attempting to run on Windows XP, download [.NET Framework 4.0](https://dotnet.microsoft.com/download/dotnet-framework/net40) first and optionally update to [.NET Framework 4.0.3](https://www.microsoft.com/en-us/download/details.aspx?id=29053).
+
+Linux/Mac: Get projector from [adobe](https://www.adobe.com/support/flashplayer/debug_downloads.html).
+For browser plugins, refer to [FlashPatch](https://github.com/darktohka/FlashPatch) and [clean-flash-builds](
+https://github.com/darktohka/clean-flash-builds).  
 
 ## Browser compatibility
 
 Newer versions of Google Chrome and Mozilla Firefox do not support Flash Player anymore.
 
-To keep using Flash Player on **Google Chrome**, install an older version of Chrome. The last supported version is Chrome 87.0.4280.168.
-
-To keep using Flash Player on **Mozilla Firefox**, install [**Waterfox**](https://waterfox.net) or [**Basilisk Browser**](https://basilisk-browser.org). Both of them are forks of Mozilla Firefox with built-in Flash Player support.
-
 **Internet Explorer** still supports Flash Player on Windows.
+
+Browsers supporting Flash Player:  
+### Maintained (recommended)
+- Cent Browser (Chromium)
+- Waterfox (Firefox)
+
+Firefox-legacy:
+- Waterfox Classic
+- Basilisk Browser
+- Sea Monkey
+- Pale Moon
+
+### Unmaintained (early versions)
+Chromium 88.0.4285.0 (or lower)   
+Download `mini_installer.exe` or portable version from [here.](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/814251/)
+ 
+Google Chrome 87.0.4280.168.  
+Mozilla Firefox 84.  
+Portable versions to be used to prevent auto-updates.  
+[Download from Internet Archive.](https://archive.org/details/Firefox_Chrome_Adobe_Flash)
 
 ## Usage
 

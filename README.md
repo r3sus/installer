@@ -41,14 +41,18 @@ Firefox-legacy:
 
 Other: K-Meleon.
 
-### Unmaintained (early versions)
-
-Newer versions of Google Chrome and Mozilla Firefox do not support Flash Player anymore after:
+### Unmaintained
+Early versions:
 - Google Chrome 87.0.4280.168.  
 - Mozilla Firefox 84.  
 
-which availabe at 
-[Internet Archive](https://archive.org/details/Firefox_Chrome_Adobe_Flash) in Portable edition, so to prevent auto-updates.
+availabe at [Internet Archive](https://archive.org/details/Firefox_Chrome_Adobe_Flash) in Portable edition, so to prevent auto-updates.
+
+Chromium 88.0.4285.0 (or lower) 
+- works only with web content i.e. can't load local swf 
+- requires confirmation on every page you visit.  
+
+For more details, refer to [guide](https://hitrov.medium.com/running-adobe-flash-in-chromium-browser-after-january-12-2021-2b94cb88f7a6).
 
 ## Usage
 
